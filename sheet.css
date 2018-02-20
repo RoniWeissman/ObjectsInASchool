@@ -1,0 +1,34 @@
+#sList {
+    display: none;
+}
+
+#tList {
+    display: none;
+
+}
+
+#sectionList {
+    display: none;
+
+}
+
+#table {
+    text-align: left;
+}
+
+h1 {
+    font-family: Arial;
+}
+
+button {
+    border: 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    border-radius: 8px;
+    background-color: white;
+}
+
+button:hover {
+    background-color: lightsteelblue; /* Green */
+    color: white;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="objects.js"></script>
+    <script src="actions.js"></script>
+    <script src="data.js"></script>
+    <link rel="stylesheet" href="sheet.css"/>
+    <meta charset="UTF-8">
+    <title>Objects in a School</title>
+</head>
+<body>
+<!--change onclick-->
+<h1>School System</h1>
+<table id="table" style="width:100%">
+    <tr>
+        <th><input type="text" onkeypress="keyCapture()" id="searchStudents" placeholder="search" size="25"></th>
+    </tr>
+    <tr>
+        <th id="student"><button id="+Student" onclick="studentAdding()">Add Student</button></th>
+    </tr>
+    <tr>
+        <th id="teacher"><button id="+Teacher" onclick="teacherAdding()">Add Teacher</button></th>
+    </tr>
+    <tr>
+        <th id="section"><button id="+Section" onclick="SectionAdding()">Add Section</button></th>
+    </tr>
+    <tr>
+        <th id="add"><button id="scheduleAll" onclick="scheduleAppear()">Schedule</button></th>
+    </tr>
+
+    <tr>
+        <th><button id="listStudents" onclick="listStudents()">Student List</button></th>
+    </tr>
+    <tr>
+        <th><button id="listTeachers" onclick="listTeachers()">Teacher List</button></th>
+    </tr>
+    <tr>
+        <th><button id="listSections" onclick="listSections()">Course List</button></th>
+    </tr>
+</table>
+<div id="sList"></div>
+<div id="tList"></div>
+<div id="sectionList"></div>
+<div id="schedule"></div>
+<div id="testing"></div>
+<div id="studentAdding"></div>
+<div id="teacherAdding"></div>
+<div id="sectionAdding"></div>
+<div id="studentToSection"></div>
+<div  id="searchReturn"></div>
+<table id="addingStoSection">
+<tr>
+    <th><div id="selectionSList"></div></th>
+    <th><div id="ClassList"></div></th>
+    <th><div id="scheduleS"></div></th>
+</tr>
+</table>
+</body>
+</html>
